@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    background-color: #f1eee7;
+    color: #2f241f;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.4;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px 10px 20px;
+}
+
+h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 60px;
+    margin: 0;
+    color: #0f3d2e;
+}
+
+h2 {
+    font-family: "Cinzel", serif;
+    font-size: 32px;
+    text-align: center;
+    color: #0f3d2e;
+}
+
+h3 {
+    font-family: "Cinzel", serif;
+    font-size: 22px;
+    text-align: center;
+    color: #0f3d2e;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0f3d2e;
+    font-family: "Cinzel", serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #faf8f3;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);
+}
+
+.home-intro {
+    text-align: center;
+}
+
+.home-intro p {
+    max-width: 42em;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.start-reading {
+    display: inline-block;
+    margin-top: 15px;
+    font-family: "Cinzel", serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: #0f3d2e;
+    font-weight: bold;
+}
+
+.start-reading:hover {
+    text-decoration: underline;
+}
+
+.home-image {
+    display: block;
+    margin: 20px auto;
+    width: 65%;
+    max-width: 480px;
+    border: 2px solid #b9aaa0;
+}
+
+.chapter-image {
+    float: left;
+    width: 250px;
+    margin: 0 20px 15px 0;
+    border: 2px solid #b9aaa0;
+}
+
+p {
+    text-align: left;
+    max-width: 50em;
+    margin: 0 auto 16px auto;
+    font-size: 18px;
+}
+
+
+.bottom-nav {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #c7bbb0;
+}
+
+.resources {
+    width: 80%;
+    max-width: 850px;
+    margin: 40px auto;
+    border-top: 1px solid #bfb2a8;
+    padding-top: 25px;
+}
+
+.resources h2 {
+    text-align: left;
+}
+
+.resources-columns {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.resources-columns div {
+    width: 45%;
+    min-width: 250px;
+}
+
+.resources ul {
+    line-height: 1.8;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
